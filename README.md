@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+## Faizal Amiruddin Personal Website
 
-You can use the [editor on GitHub](https://github.com/faizalami/faizalami.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I have good skill in programming, especially in web programming using many frameworks. I always learn the concept and the structure of programming language, so I can learn new programming language easily. I am interested in Software Architecture and Software Design Pattern. I have completed my college studies in [Electronics Engineering Polytechnic Institute of Surabaya](https://pens.ac.id) with final project about building a Laravel Framework package for design and generate an application without writing code. I have studied Agile Scrum methodology by practice it in building a software in a development team. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![LinkedIn](linkedin.png) [linkedin.com/in/faizalami](https://linkedin.com/in/faizalami)
 
-### Markdown
+![E-Mail](gmail.png) [f.a.faizal.amiruddin@gmail.com](mailto:f.a.faizal.amiruddin@gmail.com)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Open Source Projects
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/faizalami/faizalami.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- [Laravel-Mager](https://faizalami.github.io/laravel-mager)
