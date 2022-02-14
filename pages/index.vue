@@ -1,5 +1,8 @@
 <template>
-  <HeroSection />
+  <main>
+    <hero-section />
+    <about-section />
+  </main>
 </template>
 
 <script>
