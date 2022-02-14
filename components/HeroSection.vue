@@ -17,7 +17,7 @@
           Faizal Amiruddin
         </h1>
         <p class="text-2xl">
-          Web Front End Developer
+          Front End Web Developer
         </p>
       </div>
     </div>
@@ -29,13 +29,21 @@ export default {
   name: 'HeroSection',
   mounted () {
     document.addEventListener('mousemove', this.parallax)
+    document.addEventListener('touchmove', this.parallax, false)
   },
   destroyed () {
     document.removeEventListener('mousemove', this.parallax)
+    document.removeEventListener('touchmove', this.parallax, false)
   },
   methods: {
     parallax (event) {
-      const posX = event.clientX
+      let posX = 0
+      if (event.type === 'mousemove') {
+        posX = event.clientX
+      }
+      if (event.type === 'touchmove') {
+        posX = event.touches[0].clientX
+      }
       this.setPosition(this.$refs.image1, posX, -0.05)
       this.setPosition(this.$refs.image2, posX, 0.1)
     },
