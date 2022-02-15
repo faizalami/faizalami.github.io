@@ -22,7 +22,15 @@
             I was originally full-stack, but now I choose to focus in front end web.
             I am confident in my understanding about Javascript.
             In order to understand more deeply about Javascript,
-            I am developing my own framework called Fremwok-Fremwokan.
+            I am developing my own framework called
+            <a
+              class="underline"
+              href="https://github.com/faizalami/fremwok-fremwokan"
+              rel="noopener"
+              target="_blank"
+            >
+              Fremwok-Fremwokan
+            </a>.
           </p>
         </div>
       </div>
@@ -66,19 +74,43 @@
             </li>
             <li>
               <img class="inline-block mr-2 object-contain contact-icon" src="~/assets/img/icon/whatsapp-color.png" alt="Whatsapp Number">
-              <a href="https://wa.me/85330438009">+62 853 3043 8009 (Whatsapp)</a>
+              <a
+                href="https://wa.me/85330438009"
+                rel="noopener"
+                target="_blank"
+              >
+                +62 853 3043 8009 (Whatsapp)
+              </a>
             </li>
             <li>
               <img class="inline-block mr-2 object-contain contact-icon" src="~/assets/img/icon/gmail.png" alt="Email">
-              <a href="mailto:f.a.faizal.amiruddin@gmail.com">f.a.faizal.amiruddin@gmail.com</a>
+              <a
+                href="mailto:f.a.faizal.amiruddin@gmail.com"
+                rel="noopener"
+                target="_blank"
+              >
+                f.a.faizal.amiruddin@gmail.com
+              </a>
             </li>
             <li>
               <img class="inline-block mr-2 object-contain contact-icon" src="~/assets/img/icon/github.png" alt="Github Profile">
-              <a href="https://github.com/faizalami">github.com/faizalami</a>
+              <a
+                href="https://github.com/faizalami"
+                rel="noopener"
+                target="_blank"
+              >
+                github.com/faizalami
+              </a>
             </li>
             <li>
               <img class="inline-block mr-2 object-contain contact-icon" src="~/assets/img/icon/linkedin-square-color.png" alt="Linkedin Profile">
-              <a href="https://www.linkedin.com/in/faizalami/">linkedin.com/in/faizalami</a>
+              <a
+                href="https://www.linkedin.com/in/faizalami/"
+                rel="noopener"
+                target="_blank"
+              >
+                linkedin.com/in/faizalami
+              </a>
             </li>
           </ul>
         </div>
