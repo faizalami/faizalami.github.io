@@ -3,6 +3,8 @@
     <hero-section />
     <about-section />
     <education-section />
+    <experience-section />
+    <course-section />
   </main>
 </template>
 
