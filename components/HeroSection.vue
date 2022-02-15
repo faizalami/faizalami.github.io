@@ -12,8 +12,8 @@
     </picture>
 
     <div class="flex w-screen h-screen items-center p-8">
-      <div class="m-auto p-4 md:w-1/3 lg:h-1/4 hero-title-container">
-        <div class="flex justify-center flex-col p-4 w-full h-full border-4 border-white text-center text-white hero-title">
+      <div class="m-auto p-4 md:w-1/3 hero-title-container">
+        <div class="flex justify-center flex-col px-4 py-8 w-full h-full border-4 border-white text-center text-white hero-title">
           <h1 class="text-4xl md:text-5xl font-bold mb-4">
             Faizal Amiruddin
           </h1>
