@@ -2,6 +2,7 @@
   <main>
     <hero-section />
     <about-section />
+    <education-section />
   </main>
 </template>
 
