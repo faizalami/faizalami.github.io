@@ -1,6 +1,6 @@
 <template>
   <section id="about" class="flex bg-white">
-    <div class="grid md:grid-cols-3 md:grid-rows-2 gap-8 m-4 md:m-8">
+    <div class="grid md:grid-cols-3 md:auto-rows-min gap-8 m-4 md:m-8">
       <div class="md:row-span-2 flex flex-col p-4 mt-28 border-gray-600 border-2 items-center">
         <div class="relative photo -mt-32">
           <picture>
