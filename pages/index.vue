@@ -2,7 +2,6 @@
   <main>
     <hero-section />
     <about-section />
-    <education-section />
     <experience-section />
     <course-section />
     <portfolio-section />

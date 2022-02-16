@@ -1,6 +1,6 @@
 <template>
   <section id="about" class="flex bg-white">
-    <div class="grid md:grid-cols-3 md:auto-rows-min gap-8 m-4 md:m-8">
+    <div class="grid md:grid-cols-3 md:auto-rows-max gap-8 m-4 md:m-8">
       <div class="md:row-span-2 flex flex-col p-4 mt-28 border-gray-600 border-2 items-center">
         <div class="relative photo -mt-32">
           <picture>
@@ -54,6 +54,7 @@
         </h2>
         <ul class="list-disc ml-4">
           <li>PHP</li>
+          <li>NodeJS</li>
           <li>Svelte</li>
           <li>Java</li>
           <li>Python</li>
@@ -62,9 +63,9 @@
         </ul>
       </div>
 
-      <div class="flex md:row-span-2 p-4 border-gray-600 border-2">
+      <div class="flex p-4 border-gray-600 border-2">
         <div class="flex flex-col w-full h-full p-4 justify-center items-center border-gray-600 border-2">
-          <h2 class="text-xl font-bold mb-4 mx-auto p-2 border-gray-600 border-2 bg-white">
+          <h2 class="text-xl font-bold -mt-9 mx-auto p-2 border-gray-600 border-2 bg-white">
             Contacts
           </h2>
           <ul class="flex flex-col space-y-4 mt-4 break-all text-sm md:text-base">
@@ -102,16 +103,27 @@
                 github.com/faizalami
               </a>
             </li>
-            <li>
-              <img class="inline-block mr-2 object-contain contact-icon" src="~/assets/img/icon/linkedin-square-color.png" alt="Linkedin Profile">
-              <a
-                href="https://www.linkedin.com/in/faizalami/"
-                rel="noopener"
-                target="_blank"
-              >
-                linkedin.com/in/faizalami
-              </a>
-            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex flex-col p-4 mt-12 border-gray-600 border-2 items-center">
+        <img class="education-icon -mt-16 bg-white border-white border-4 object-contain object-center" src="~/assets/img/icon/graduation-cap.png" alt="College">
+
+        <div class="mt-4 text-center">
+          <h2 class="text-xl font-bold mb-1">
+            Electronic Engineering Polytechnic Institute of Surabaya (PENS/EEPIS)
+          </h2>
+          <h3 class="text-sm">
+            2015 - 2019
+          </h3>
+          <h3 class="font-bold mb-4">
+            BA in Informatics Engineering
+          </h3>
+
+          <ul class="list-disc ml-4 text-left">
+            <li>GPA: 3.59 (Scale 4)</li>
+            <li>Final Project: Building Laravel Package for Design and Generate a Ready to Use Application</li>
           </ul>
         </div>
       </div>
@@ -132,14 +144,18 @@ export default {
   height: 250px;
 }
 
-.skill-icon {
+#about .skill-icon {
   height: 1.25rem;
   margin-top: -0.5rem;
 }
 
-.contact-icon {
+#about .contact-icon {
   height: 1.25rem;
   width: 1.25rem;
   margin-top: -0.25rem;
+}
+
+#about .education-icon {
+  height: 75px;
 }
 </style>
