@@ -30,7 +30,7 @@
             </a>
           </div>
           <div v-if="portfolio.images.length" class="-mx-2 mb-2 border-gray-600 border-b-2 image">
-            <button class="w-full h-full">
+            <button class="w-full h-full" @click="showImages(portfolio.images)">
               <img
                 :src="portfolio.images[0]"
                 alt=""
@@ -51,6 +51,7 @@
         </div>
       </div>
     </div>
+    <image-preview :show.sync="showImage" :images="images" />
   </section>
 </template>
 
@@ -227,7 +228,15 @@ export default {
             'My Github repositories.'
           ]
         }
-      ]
+      ],
+      showImage: false,
+      images: []
+    }
+  },
+  methods: {
+    showImages (images) {
+      this.images = images
+      this.showImage = true
     }
   }
 }

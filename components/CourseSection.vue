@@ -13,6 +13,7 @@
           :key="index"
           aria-label="Open Image"
           class="border-gray-600 border-2"
+          @click="showCourse(cert)"
         >
           <img
             :src="cert"
@@ -25,6 +26,7 @@
         </button>
       </div>
     </div>
+    <image-preview :show.sync="showImage" :images="image" />
   </section>
 </template>
 
@@ -45,7 +47,15 @@ export default {
         require('~/assets/img/cert/UC-3ae88dff-f664-4475-92f0-2a8fc078e35d.png'),
         require('~/assets/img/cert/UC-7ba133c9-9a1b-4652-ad47-87eba6eceb31.png'),
         require('~/assets/img/cert/react-js-testing-dengan-jest-dan-rtl-faizal-amiruddin.png')
-      ]
+      ],
+      showImage: false,
+      image: null
+    }
+  },
+  methods: {
+    showCourse (image) {
+      this.image = [image]
+      this.showImage = true
     }
   }
 }

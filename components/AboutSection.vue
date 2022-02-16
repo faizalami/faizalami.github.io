@@ -75,7 +75,7 @@
             <li>
               <img class="inline-block mr-2 object-contain contact-icon" src="~/assets/img/icon/whatsapp-color.png" alt="Whatsapp Number">
               <a
-                href="https://wa.me/85330438009"
+                href="https://wa.me/6285330438009"
                 rel="noopener"
                 target="_blank"
               >
