@@ -14,7 +14,14 @@
           aria-label="Open Image"
           class="border-gray-600 border-2"
         >
-          <img :src="cert" alt="" class="w-full h-full object-cover">
+          <img
+            :src="cert"
+            alt=""
+            class="w-full h-full object-cover"
+            loading="lazy"
+            width="445"
+            height="330"
+          >
         </button>
       </div>
     </div>

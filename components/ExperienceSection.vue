@@ -53,7 +53,7 @@ export default {
           office: 'PT Wowrack Indonesia',
           link: 'https://wowrack.co.id/id',
           descriptions: [
-            'IoT Stadium - IoT management panel.',
+            'IoT Stadium - IoT ecosystem management panel.',
             'Cloudraya DNS Bucket - DNS management panel.',
             'Cloudraya AWS Panel - Simplified AWS services management panel.'
           ]

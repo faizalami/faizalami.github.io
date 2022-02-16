@@ -5,6 +5,7 @@
     <education-section />
     <experience-section />
     <course-section />
+    <portfolio-section />
   </main>
 </template>
 
