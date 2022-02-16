@@ -130,14 +130,15 @@ export default {
         {
           title: 'Laravel Mager',
           images: [
-            require('~/assets/img/portfolio/laravel-mager-1.png')
+            require('~/assets/img/portfolio/laravel-mager-1.png'),
+            require('~/assets/img/portfolio/laravel-mager-2.png')
           ],
           link: 'https://faizalami.github.io/laravel-mager',
           descriptions: [
-            'My college\'s final project app and also an interesting experience as an open source dev.',
+            'My college\'s final project app and also my interesting experience as an open source dev.',
             'Laravel package for design and generate a ready to use application.',
             'It provides some features to generate Laravel framework codes without writing any code.',
-            'Consist of Drag and Drop GUI Builder, Choose Theme, REST API Response Designer, Database Manager.',
+            'Consist of Drag and Drop GUI Builder, Choose Theme, REST API Response Designer, and Database Manager.',
             'I built this plugin when Laravel is still in version 6, But I am not longer maintaining it, ' +
             'so probably this plugin can\'t be used in for latest version of Laravel.'
           ]
@@ -145,7 +146,9 @@ export default {
         {
           title: 'MySights - Opinion Mining',
           images: [
-            require('~/assets/img/portfolio/mysights-1.jpg')
+            require('~/assets/img/portfolio/mysights-1.jpg'),
+            require('~/assets/img/portfolio/mysights-2.jpg'),
+            require('~/assets/img/portfolio/mysights-3.jpg')
           ],
           link: null,
           descriptions: [
@@ -156,7 +159,8 @@ export default {
         {
           title: 'KasirSaku',
           images: [
-            require('~/assets/img/portfolio/kasir-saku-1.png')
+            require('~/assets/img/portfolio/kasir-saku-1.png'),
+            require('~/assets/img/portfolio/kasir-saku-2.png')
           ],
           link: null,
           descriptions: [
@@ -168,7 +172,10 @@ export default {
         {
           title: 'AMR Terpusat',
           images: [
-            require('~/assets/img/portfolio/amr-1.png')
+            require('~/assets/img/portfolio/amr-1.png'),
+            require('~/assets/img/portfolio/amr-2.png'),
+            require('~/assets/img/portfolio/amr-3.png'),
+            require('~/assets/img/portfolio/amr-4.png')
           ],
           link: null,
           descriptions: [
@@ -200,13 +207,24 @@ export default {
         {
           title: 'PertaMagz',
           images: [
-            require('~/assets/img/portfolio/pertamagz-1.png')
+            require('~/assets/img/portfolio/pertamagz-1.png'),
+            require('~/assets/img/portfolio/pertamagz-2.png')
           ],
-          link: null,
+          link: 'https://github.com/faizalami/pertamagz',
           descriptions: [
             'Digital magazine made for a competition when I was in vocational high school.',
             'Built using jQuery and some old js plugins.',
             'The magazine\'s contents are about school\'s profile, some creative industry in Mojokerto, and some technology articles.'
+          ]
+        },
+        {
+          title: 'My Repository',
+          images: [
+            require('~/assets/img/portfolio/repo.png')
+          ],
+          link: 'https://github.com/faizalami?tab=repositories',
+          descriptions: [
+            'My Github repositories.'
           ]
         }
       ]
