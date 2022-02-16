@@ -25,6 +25,9 @@
                 :key="index"
                 :src="image"
                 alt=""
+                loading="lazy"
+                width="1080"
+                height="530"
                 class="border-y-2 sm:border-2 border-gray-600 w-full"
               >
             </div>
