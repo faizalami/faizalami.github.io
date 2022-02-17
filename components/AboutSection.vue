@@ -1,6 +1,6 @@
 <template>
   <section id="about" class="flex bg-white">
-    <div class="grid md:grid-cols-3 md:auto-rows-max gap-8 m-4 md:m-8">
+    <div class="grid md:grid-cols-3 md:auto-rows-min gap-8 m-4 md:m-8">
       <div class="md:row-span-2 flex flex-col p-4 mt-28 border-gray-600 border-2 items-center">
         <div class="relative photo -mt-32">
           <picture>
@@ -63,68 +63,26 @@
         </ul>
       </div>
 
-      <div class="flex p-4 border-gray-600 border-2">
-        <div class="flex flex-col w-full h-full p-4 justify-center items-center border-gray-600 border-2">
-          <h2 class="text-xl font-bold -mt-9 mx-auto p-2 border-gray-600 border-2 bg-white">
-            Contacts
-          </h2>
-          <ul class="flex flex-col space-y-4 mt-4 break-all text-sm md:text-base">
-            <li>
-              <img class="inline-block mr-2 object-contain contact-icon" src="~/assets/img/icon/pin-location.png" alt="Home Address">
-              Dlanggu, Kab. Mojokerto, Jawa Timur
-            </li>
-            <li>
-              <img class="inline-block mr-2 object-contain contact-icon" src="~/assets/img/icon/whatsapp-color.png" alt="Whatsapp Number">
-              <a
-                href="https://wa.me/6285330438009"
-                rel="noopener"
-                target="_blank"
-              >
-                +62 853 3043 8009 (Whatsapp)
-              </a>
-            </li>
-            <li>
-              <img class="inline-block mr-2 object-contain contact-icon" src="~/assets/img/icon/gmail.png" alt="Email">
-              <a
-                href="mailto:f.a.faizal.amiruddin@gmail.com"
-                rel="noopener"
-                target="_blank"
-              >
-                f.a.faizal.amiruddin@gmail.com
-              </a>
-            </li>
-            <li>
-              <img class="inline-block mr-2 object-contain contact-icon" src="~/assets/img/icon/github.png" alt="Github Profile">
-              <a
-                href="https://github.com/faizalami"
-                rel="noopener"
-                target="_blank"
-              >
-                github.com/faizalami
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
+      <div class="flex md:row-span-2 p-4 mt-10 border-gray-600 border-2">
+        <div class="flex flex-col p-4 border-gray-600 border-2 items-center">
+          <img class="education-icon -mt-20 bg-white border-white border-4 object-contain object-center" src="~/assets/img/icon/graduation-cap.png" alt="College">
 
-      <div class="flex flex-col p-4 mt-12 border-gray-600 border-2 items-center">
-        <img class="education-icon -mt-16 bg-white border-white border-4 object-contain object-center" src="~/assets/img/icon/graduation-cap.png" alt="College">
+          <div class="mt-8 text-center">
+            <h2 class="text-xl font-bold mb-1">
+              Electronic Engineering Polytechnic Institute of Surabaya (PENS/EEPIS)
+            </h2>
+            <h3 class="text-sm">
+              2015 - 2019
+            </h3>
+            <h3 class="text-lg mb-4">
+              BA in Informatics Engineering
+            </h3>
 
-        <div class="mt-4 text-center">
-          <h2 class="text-xl font-bold mb-1">
-            Electronic Engineering Polytechnic Institute of Surabaya (PENS/EEPIS)
-          </h2>
-          <h3 class="text-sm">
-            2015 - 2019
-          </h3>
-          <h3 class="font-bold mb-4">
-            BA in Informatics Engineering
-          </h3>
-
-          <ul class="list-disc ml-4 text-left">
-            <li>GPA: 3.59 (Scale 4)</li>
-            <li>Final Project: Building Laravel Package for Design and Generate a Ready to Use Application</li>
-          </ul>
+            <ul class="list-disc ml-4 text-left">
+              <li>GPA: 3.59 (Scale 4)</li>
+              <li>Final Project: Building Laravel Package for Design and Generate a Ready to Use Application</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -149,13 +107,7 @@ export default {
   margin-top: -0.5rem;
 }
 
-#about .contact-icon {
-  height: 1.25rem;
-  width: 1.25rem;
-  margin-top: -0.25rem;
-}
-
 #about .education-icon {
-  height: 75px;
+  height: 100px;
 }
 </style>
