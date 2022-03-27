@@ -62,6 +62,15 @@ export default {
     return {
       portfolios: [
         {
+          title: 'Reak-Reakan',
+          images: [],
+          link: 'https://github.com/faizalami/reak-reakan',
+          descriptions: [
+            'My own "framework" again that I built to understand React Hooks.',
+            'Try to imitate useState & useEffect hooks.'
+          ]
+        },
+        {
           title: 'Fremwok-Fremwokan',
           images: [
             require('~/assets/img/portfolio/fremwok-fremwokan.png')
