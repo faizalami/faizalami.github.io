@@ -46,7 +46,8 @@ export default {
         require('~/assets/img/cert/UC-2ecdfb21-15c7-4b52-b360-7582551f8e00.png'),
         require('~/assets/img/cert/UC-3ae88dff-f664-4475-92f0-2a8fc078e35d.png'),
         require('~/assets/img/cert/UC-7ba133c9-9a1b-4652-ad47-87eba6eceb31.png'),
-        require('~/assets/img/cert/react-js-testing-dengan-jest-dan-rtl-faizal-amiruddin.png')
+        require('~/assets/img/cert/react-js-testing-dengan-jest-dan-rtl-faizal-amiruddin.png'),
+        require('~/assets/img/cert/UC-c9e3699a-4bd4-4b9d-b6c3-2826cb20143b.png')
       ],
       showImage: false,
       image: null

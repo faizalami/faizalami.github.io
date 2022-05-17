@@ -48,8 +48,17 @@ export default {
     return {
       experiences: [
         {
+          title: 'Web Platform Engineer.',
+          duration: 'May 2022 - Present',
+          office: 'PT Tokopedia',
+          link: 'https://www.tokopedia.com/about/',
+          descriptions: [
+            'Just joined hehe.',
+          ]
+        },
+        {
           title: 'Front End Dev.',
-          duration: 'May 2020 - Present',
+          duration: 'May 2020 - May 2022',
           office: 'PT Wowrack Indonesia',
           link: 'https://wowrack.co.id/id',
           descriptions: [
