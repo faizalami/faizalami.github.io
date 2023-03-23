@@ -15,7 +15,7 @@
           <div class="m-4 py-4 sm:p-4 border-2 border-gray-600">
             <div class="w-full text-center mb-4 px-4">
               <button type="button" class="w-full inline-flex justify-center border-2 border-gray-600 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:w-auto sm:text-sm" @click="close">
-                Close 🗙
+                Close &#x26CC;
               </button>
             </div>
 
@@ -24,7 +24,7 @@
                 v-for="(image, index) in images"
                 :key="index"
                 :src="image"
-                alt=""
+                :alt="index + 1"
                 loading="lazy"
                 width="1080"
                 height="530"
@@ -44,19 +44,19 @@ export default {
   props: {
     show: {
       type: Boolean,
-      default: false
+      default: false,
     },
     images: {
       type: Array,
-      default: () => []
-    }
+      default: () => [],
+    },
   },
   methods: {
     close () {
-      this.$emit('update:show', false)
-    }
-  }
-}
+      this.$emit('update:show', false);
+    },
+  },
+};
 </script>
 
 <style scoped>

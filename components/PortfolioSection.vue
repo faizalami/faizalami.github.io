@@ -33,7 +33,7 @@
             <button class="w-full h-full" @click="showImages(portfolio.images)">
               <img
                 :src="portfolio.images[0]"
-                alt=""
+                :alt="portfolio.title"
                 class="w-full h-full object-cover"
                 loading="lazy"
                 width="430"
@@ -62,26 +62,46 @@ export default {
     return {
       portfolios: [
         {
+          title: 'Tokopedia Wishlist',
+          images: [
+            require('~/assets/img/portfolio/wishlist-1.png'),
+            require('~/assets/img/portfolio/wishlist-2.png'),
+            require('~/assets/img/portfolio/wishlist-3.png'),
+            require('~/assets/img/portfolio/wishlist-4.png'),
+            require('~/assets/img/portfolio/wishlist-5.png'),
+          ],
+          link: 'https://www.tokopedia.com/wishlist',
+          descriptions: [
+            'My main portfolio in Tokopedia.',
+            'A feature to help users to collect & keep their favorite products.',
+            'Migrate entire Wishlist web modules (mobile & desktop) to Typescript to standardize and prevent data type related errors.',
+            'Develop a brand new Wishlist Mobile Web Collection Sharing, a feature to help users to share their Wishlist Collections in their favorite social media apps.',
+            'Migrate entire wishlist mobile web to a new Tokopedia internal web framework as a Tokopedia Web Platform Engineers initiative to increase Tokopedia Mobile Web performance.',
+            `Experiments with React Apollo Graphql V3 to globalize add or remove wishlist handling using Apollo Reactive Variable and Local-only Fields,
+            also handle cache and infinite pagination strategy using Type Policies`,
+          ],
+        },
+        {
           title: 'Reak-Reakan',
-          images: [],
+          images: [require('~/assets/img/portfolio/reak-reakan.png')],
           link: 'https://github.com/faizalami/reak-reakan',
           descriptions: [
-            'My own "framework" again that I built to understand React Hooks.',
-            'Try to imitate useState & useEffect hooks.'
-          ]
+            'Another "framework" that I built to understand React Hooks.',
+            'Try to imitate useState & useEffect hooks.',
+          ],
         },
         {
           title: 'Fremwok-Fremwokan',
           images: [
-            require('~/assets/img/portfolio/fremwok-fremwokan.png')
+            require('~/assets/img/portfolio/fremwok-fremwokan.png'),
           ],
           link: 'https://github.com/faizalami/fremwok-fremwokan',
           descriptions: [
-            'My own framework that I built to understand reactivity of front end Javascript framework.',
-            'It use the basic reactivity concept of Vue.',
-            'Currently, It have some useful features such as modular component which have the structure similar to Vue' +
-            '(data, computed, methods, and lifecycle) but using jsx as V-DOM, it also have built in router and global state management.'
-          ]
+            'The framework that I built to understand the reactivity of front end Javascript framework.',
+            'It uses the basic reactivity concept of Vue.',
+            'Currently, It has some useful features such as modular components which have a structure similar to Vue' +
+            '(data, computed, methods, and lifecycle) but using jsx as V-DOM, it also has built-in router and global state management.',
+          ],
         },
         {
           title: 'IoT Stadium',
@@ -91,7 +111,7 @@ export default {
             require('~/assets/img/portfolio/iot-stadium-3.png'),
             require('~/assets/img/portfolio/iot-stadium-4.png'),
             require('~/assets/img/portfolio/iot-stadium-5.png'),
-            require('~/assets/img/portfolio/iot-stadium-6.png')
+            require('~/assets/img/portfolio/iot-stadium-6.png'),
           ],
           link: 'https://app.iotstadium.com',
           descriptions: [
@@ -99,85 +119,85 @@ export default {
             'IoT ecosystem management panel.',
             'Built using NuxtJS (Front End Side).',
             'It contains some core features such as device management, device automation builder, ' +
-            'and real-time dashboard with graphical chart and customizable map.'
-          ]
+            'and real-time dashboard with a graphical chart and customizable map.',
+          ],
         },
         {
           title: 'Cloudraya - DNS Bucket',
           images: [
-            require('~/assets/img/portfolio/dns-bucket.png')
+            require('~/assets/img/portfolio/dns-bucket.png'),
           ],
           link: 'https://cloudraya.com/en/',
           descriptions: [
             'DNS management panel.',
-            'Built using NuxtJS (Front End Side).'
-          ]
+            'Built using NuxtJS (Front End Side).',
+          ],
         },
         {
           title: 'Cloudraya - AWS',
           images: [
-            require('~/assets/img/portfolio/aws.png')
+            require('~/assets/img/portfolio/aws.png'),
           ],
           link: 'https://cloudraya.com/en/',
           descriptions: [
             'Simplified AWS services management panel.',
             'Original AWS panel is difficult to understand, even a new user will often ' +
             'browsing some tutorials to operate, so this is the purpose of Cloudraya - AWS.',
-            'Built using NuxtJS (Front End Side).'
-          ]
+            'Built using NuxtJS (Front End Side).',
+          ],
         },
         {
           title: 'Umrahaj',
           images: [
-            require('~/assets/img/portfolio/umrahaj.png')
+            require('~/assets/img/portfolio/umrahaj.png'),
           ],
           link: 'https://www.umrahaj.id',
           descriptions: [
             'Umrah & Hajj Marketplace.',
-            'Built using NuxtJS (Front End Side).'
-          ]
+            'Built using NuxtJS (Front End Side).',
+          ],
         },
         {
           title: 'Laravel Mager',
           images: [
             require('~/assets/img/portfolio/laravel-mager-1.png'),
-            require('~/assets/img/portfolio/laravel-mager-2.png')
+            require('~/assets/img/portfolio/laravel-mager-2.png'),
           ],
           link: 'https://faizalami.github.io/laravel-mager',
           descriptions: [
             'My college\'s final project app and also my interesting experience as an open source dev.',
-            'Laravel package for design and generate a ready to use application.',
+            'Laravel package for design and generating a ready-to-use application.',
             'It provides some features to generate Laravel framework codes without writing any code.',
             'Consist of Drag and Drop GUI Builder, Choose Theme, REST API Response Designer, and Database Manager.',
-            'I built this plugin when Laravel is still in version 6, But I am not longer maintaining it, ' +
-            'so probably this plugin can\'t be used in for latest version of Laravel.'
-          ]
+            'I built this plugin when Laravel is still in version 6, But I am no longer maintaining it, ' +
+            'so probably this plugin can\'t be used in for a latest version of Laravel.',
+          ],
         },
         {
           title: 'MySights - Opinion Mining',
           images: [
             require('~/assets/img/portfolio/mysights-1.jpg'),
             require('~/assets/img/portfolio/mysights-2.jpg'),
-            require('~/assets/img/portfolio/mysights-3.jpg')
+            require('~/assets/img/portfolio/mysights-3.jpg'),
           ],
           link: null,
           descriptions: [
             'An analytical tool to explore public opinion and trends in online media as insight for the company business',
-            'Built using Laravel'
-          ]
+            'Built using Laravel',
+          ],
         },
         {
           title: 'KasirSaku',
           images: [
             require('~/assets/img/portfolio/kasir-saku-1.png'),
-            require('~/assets/img/portfolio/kasir-saku-2.png')
+            require('~/assets/img/portfolio/kasir-saku-2.png'),
           ],
           link: null,
           descriptions: [
             'A project built for practicing Agile Scrum development in Software Engineering lecture.',
             'Point of sales app including PPOB services for small/medium grocery stores (toko kelontong).',
-            'Built using Yii2 (Back End Side).'
-          ]
+            'Built using Yii2 (Back End Side).',
+          ],
         },
         {
           title: 'AMR Terpusat',
@@ -185,25 +205,25 @@ export default {
             require('~/assets/img/portfolio/amr-1.png'),
             require('~/assets/img/portfolio/amr-2.png'),
             require('~/assets/img/portfolio/amr-3.png'),
-            require('~/assets/img/portfolio/amr-4.png')
+            require('~/assets/img/portfolio/amr-4.png'),
           ],
           link: null,
           descriptions: [
             'Automatic Meter Reading application for reading PLN electric stand meters.',
-            'Built using Angular (Front End Side).'
-          ]
+            'Built using Angular (Front End Side).',
+          ],
         },
         {
           title: 'HIMIT Web',
           images: [
-            require('~/assets/img/portfolio/himit.png')
+            require('~/assets/img/portfolio/himit.png'),
           ],
           link: 'http://himit.pens.ac.id',
           descriptions: [
             'Official website of Himpunan Mahasiswa Teknik Informatika (HIMIT PENS).',
             'Built using Yii2.',
-            'Now they use a new official website and move to https://himitpens.com.'
-          ]
+            'Now they use a new official website and move to https://himitpens.com.',
+          ],
         },
         {
           title: 'E-Vote HIMIT',
@@ -211,44 +231,44 @@ export default {
           link: null,
           descriptions: [
             'Application for public election (PEMILU) of Himpunan Mahasiswa Teknik Informatika (HIMIT PENS).',
-            'Built using Laravel.'
-          ]
+            'Built using Laravel.',
+          ],
         },
         {
           title: 'PertaMagz',
           images: [
             require('~/assets/img/portfolio/pertamagz-1.png'),
-            require('~/assets/img/portfolio/pertamagz-2.png')
+            require('~/assets/img/portfolio/pertamagz-2.png'),
           ],
           link: 'https://github.com/faizalami/pertamagz',
           descriptions: [
             'Digital magazine made for a competition when I was in vocational high school.',
             'Built using jQuery and some old js plugins.',
-            'The magazine\'s contents are about school\'s profile, some creative industry in Mojokerto, and some technology articles.'
-          ]
+            'The magazine\'s contents are about school\'s profile, some creative industry in Mojokerto, and some articles about technologies.',
+          ],
         },
         {
           title: 'My Repository',
           images: [
-            require('~/assets/img/portfolio/repo.png')
+            require('~/assets/img/portfolio/repo.png'),
           ],
           link: 'https://github.com/faizalami?tab=repositories',
           descriptions: [
-            'My Github repositories.'
-          ]
-        }
+            'My Github repositories.',
+          ],
+        },
       ],
       showImage: false,
-      images: []
-    }
+      images: [],
+    };
   },
   methods: {
     showImages (images) {
-      this.images = images
-      this.showImage = true
-    }
-  }
-}
+      this.images = images;
+      this.showImage = true;
+    },
+  },
+};
 </script>
 
 <style scoped>

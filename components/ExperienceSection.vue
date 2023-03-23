@@ -1,14 +1,20 @@
 <template>
   <section id="experience">
     <div class="flex justify-center items-center w-full title">
-      <h2 class="w-full border-y-4 border-white p-8 text-center text-4xl font-bold text-white">
+      <h2
+        class="w-full border-y-4 border-white p-8 text-center text-4xl font-bold text-white"
+      >
         Work Experience
       </h2>
     </div>
 
     <div class="flex bg-white">
       <div class="grid w-full md:grid-cols-3 md:auto-rows-fr gap-8 m-4 md:m-8">
-        <div v-for="(experience, index) in experiences" :key="index" class="border-gray-600 border-2 p-2">
+        <div
+          v-for="(experience, index) in experiences"
+          :key="index"
+          class="border-gray-600 border-2 p-2"
+        >
           <div class="flex mb-2">
             <div class="mr-auto">
               {{ experience.title }}
@@ -19,18 +25,17 @@
           </div>
           <div class="-mx-2 mb-2 border-gray-600 border-y-2 p-2">
             <h3 class="text-xl font-bold text-center">
-              <a
-                :href="experience.link"
-                rel="noopener"
-                target="_blank"
-              >
+              <a :href="experience.link" rel="noopener" target="_blank">
                 {{ experience.office }}
               </a>
             </h3>
           </div>
           <div>
             <ul class="list-disc ml-4">
-              <li v-for="(desc, descIdx) in experience.descriptions" :key="descIdx">
+              <li
+                v-for="(desc, descIdx) in experience.descriptions"
+                :key="descIdx"
+              >
                 {{ desc }}
               </li>
             </ul>
@@ -49,12 +54,18 @@ export default {
       experiences: [
         {
           title: 'Web Platform Engineer.',
-          duration: 'May 2022 - Present',
+          duration: 'May 2022 - Mar 2023',
           office: 'PT Tokopedia',
           link: 'https://www.tokopedia.com/about/',
           descriptions: [
-            'Just joined hehe.',
-          ]
+            'Migrate entire Wishlist web modules (mobile & desktop) to Typescript.',
+            'Wishlist Mobile Web Collection Sharing.',
+            'Migrate entire wishlist mobile web to a new Tokopedia internal web framework.',
+            'Some key features in "Beli Langsung" module.',
+            'Some corrections and improvements in some Tokopedia features.',
+            `Develop any feature in a ReactJS-based Tokopedia internal framework with
+            a monorepo architecture and Apollo Graphql API communication.`,
+          ],
         },
         {
           title: 'Front End Dev.',
@@ -64,17 +75,15 @@ export default {
           descriptions: [
             'IoT Stadium - IoT ecosystem management panel.',
             'Cloudraya DNS Bucket - DNS management panel.',
-            'Cloudraya AWS Panel - Simplified AWS services management panel.'
-          ]
+            'Cloudraya AWS Panel - Simplified AWS services management panel.',
+          ],
         },
         {
           title: 'Front End Dev.',
           duration: 'Sep 2019 - Mar 2020',
           office: 'PT Traspac Makmur Sejahtera',
           link: 'http://www.traspac.co.id/',
-          descriptions: [
-            'Umrahaj - Umrah & Hajj Marketplace.'
-          ]
+          descriptions: ['Umrahaj - Umrah & Hajj Marketplace.'],
         },
         {
           title: 'Freelance Dev.',
@@ -82,8 +91,8 @@ export default {
           office: 'PT Astra Graphia IT (AGIT)',
           link: 'https://www.ag-it.com/',
           descriptions: [
-            'Mysights Opinion Mining - Online media public opinions and trends analytic.'
-          ]
+            'Mysights Opinion Mining - Online media public opinions and trends analytic.',
+          ],
         },
         {
           title: 'Intern. Dev.',
@@ -91,8 +100,8 @@ export default {
           office: 'PT Indonesia Comnets Plus (Icon+)',
           link: 'http://www.iconpln.co.id/',
           descriptions: [
-            'AMR Terpusat - Automatic Meter Reading application for reading PLN electric stand meters.'
-          ]
+            'AMR Terpusat - Automatic Meter Reading application for reading PLN electric stand meters.',
+          ],
         },
         {
           title: 'Intern. Dev.',
@@ -100,13 +109,13 @@ export default {
           office: 'PT QQLTECH Global Solution',
           link: 'https://qqltech.com/',
           descriptions: [
-            'Internal Attendance App - Internal Attendance App for recording employee attendance.'
-          ]
-        }
-      ]
-    }
-  }
-}
+            'Internal Attendance App - Internal Attendance App for recording employee attendance.',
+          ],
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style scoped>
@@ -114,5 +123,4 @@ export default {
   background: rgba(0, 0, 0, 0.5);
   min-height: 150px;
 }
-
 </style>

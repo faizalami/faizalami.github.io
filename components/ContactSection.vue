@@ -8,8 +8,8 @@
 
     <div class="bg-white p-4">
       <div class="flex w-full p-4 border-gray-600 border-2">
-        <div class="flex flex-col w-full h-full p-4 justify-center items-center border-gray-600 border-2">
-          <ul class="flex flex-col space-y-4 mt-4 break-all text-sm md:text-base">
+        <div class="flex flex-col md:flex-row w-full h-full p-4 justify-center items-center border-gray-600 border-2">
+          <ul class="flex flex-col w-full md:w-fit space-y-4 mt-4 md:mr-8 break-all text-sm md:text-base">
             <li>
               <img class="inline-block mr-2 object-contain contact-icon" src="~/assets/img/icon/pin-location.png" alt="Home Address">
               Dlanggu, Kab. Mojokerto, Jawa Timur
@@ -34,6 +34,8 @@
                 f.a.faizal.amiruddin@gmail.com
               </a>
             </li>
+          </ul>
+          <ul class="flex flex-col w-full md:w-fit space-y-4 mt-4 break-all text-sm md:text-base">
             <li>
               <img class="inline-block mr-2 object-contain contact-icon" src="~/assets/img/icon/github.png" alt="Github Profile">
               <a
@@ -54,6 +56,16 @@
                 linkedin.com/in/faizalami
               </a>
             </li>
+            <li>
+              <img class="inline-block mr-2 object-contain contact-icon" src="~/assets/img/icon/resume-and-cv.png" alt="Curriculum Vitae">
+              <a
+                href="https://www.canva.com/design/DAE4Igwb5DQ/t4648gYbsIwR-yba_mxmpA/view?utm_content=DAE4Igwb5DQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+                rel="noopener"
+                target="_blank"
+              >
+                Curriculum Vitae
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -63,8 +75,8 @@
 
 <script>
 export default {
-  name: 'ContactSection'
-}
+  name: 'ContactSection',
+};
 </script>
 
 <style scoped>

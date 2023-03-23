@@ -19,10 +19,9 @@
             Hello! I'm Faizal.
           </h2>
           <p>
-            I was originally full-stack, but now I choose to focus in front end web.
-            I am confident in my understanding about Javascript.
-            In order to understand more deeply about Javascript,
-            I am developing my own framework called
+            I am a fast learner, curious, and like to do experiments, so I can fastly adapt to a new tech stack.
+            To understand more deeply about any new tech stack, I often do some exploration and experiments.
+            For example, to be more understanding of modern front-end libraries, I did some experiments called
             <a
               class="underline"
               href="https://github.com/faizalami/fremwok-fremwokan"
@@ -30,6 +29,15 @@
               target="_blank"
             >
               Fremwok-Fremwokan
+            </a>
+            and
+            <a
+              class="underline"
+              href="https://github.com/faizalami/reak-reakan"
+              rel="noopener"
+              target="_blank"
+            >
+              Reak-Reakan
             </a>.
           </p>
         </div>
@@ -44,6 +52,8 @@
           <li>Javascript</li>
           <li>Vue</li>
           <li>React</li>
+          <li>Typescript</li>
+          <li>React Apollo Graphql</li>
         </ul>
       </div>
 
@@ -53,11 +63,7 @@
           Other Skills
         </h2>
         <ul class="list-disc ml-4">
-          <li>PHP</li>
           <li>NodeJS</li>
-          <li>Svelte</li>
-          <li>Java</li>
-          <li>Python</li>
           <li>Graphic Design</li>
           <li>Photo Editing</li>
         </ul>
@@ -80,7 +86,7 @@
 
             <ul class="list-disc ml-4 text-left">
               <li>GPA: 3.59 (Scale 4)</li>
-              <li>Final Project: Building Laravel Package for Design and Generate a Ready to Use Application</li>
+              <li>Final Project: Building Laravel Package for Design and Generate a Ready-to-Use Application</li>
             </ul>
           </div>
         </div>
@@ -91,8 +97,8 @@
 
 <script>
 export default {
-  name: 'AboutSection'
-}
+  name: 'AboutSection',
+};
 </script>
 
 <style scoped>
