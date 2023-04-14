@@ -50,7 +50,7 @@
         </h2>
         <ul class="list-disc ml-4">
           <li>Javascript</li>
-          <li>Vue</li>
+          <li>Vue 2</li>
           <li>React</li>
           <li>Typescript</li>
           <li>React Apollo Graphql</li>
@@ -63,6 +63,7 @@
           Other Skills
         </h2>
         <ul class="list-disc ml-4">
+          <li>Vue 3</li>
           <li>NodeJS</li>
           <li>Graphic Design</li>
           <li>Photo Editing</li>
