@@ -53,7 +53,7 @@
           <li>Vue 2</li>
           <li>React</li>
           <li>Typescript</li>
-          <li>React Apollo Graphql</li>
+          <li>React Apollo Graphql Client</li>
         </ul>
       </div>
 
