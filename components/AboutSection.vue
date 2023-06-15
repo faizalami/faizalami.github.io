@@ -64,6 +64,7 @@
         </h2>
         <ul class="list-disc ml-4">
           <li>Vue 3</li>
+          <li>NextJS</li>
           <li>NodeJS</li>
           <li>Graphic Design</li>
           <li>Photo Editing</li>

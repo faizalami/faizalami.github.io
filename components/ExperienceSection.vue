@@ -53,6 +53,15 @@ export default {
     return {
       experiences: [
         {
+          title: 'React Dev.',
+          duration: 'May 2023 - Now',
+          office: 'PT Teknologi Kuliner Kekinian (Runchise)',
+          link: 'https://www.runchise.com/about',
+          descriptions: [
+            'Runchise Web Apps - Integrated franchise & restaurant management, built with Typescript based Next JS.',
+          ],
+        },
+        {
           title: 'Web Platform Engineer.',
           duration: 'May 2022 - Mar 2023',
           office: 'PT Tokopedia',
